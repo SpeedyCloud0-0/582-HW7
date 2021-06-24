@@ -9,6 +9,7 @@ def num_BTC(b):
     i = 0
     while i < half_time:
         c += 50 * 210000 * pow(0.5, i)
+        i += 1
 
     c += remain * pow(0.5, i) * 50
 
